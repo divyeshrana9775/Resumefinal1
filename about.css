@@ -130,7 +130,7 @@
 }
 .Responsive{
     flex: 1;
-    animation: about 2s ease;
+    animation: about 1s ease;
 }
 .Responsive img{
     height: 80px;
@@ -147,7 +147,7 @@
 }
 .Intuitive{
     flex: 1;
-    animation: about 3s ease;
+    animation: about 1s ease;
 }
 .Intuitive img{
     height: 75px;
@@ -164,7 +164,7 @@
 }
 .Dynamic{
     flex: 1;
-    animation: about 4s ease;
+    animation: about 1s ease;
 }
 .Dynamic img{
     height: 75px;
@@ -560,17 +560,17 @@
           }
           .Dynamic{
             flex: 1;
-            animation: about 4s ease;
+            animation: about 1s ease;
             margin: 17px 0px 0px 0px;
         }
         .Intuitive{
             flex: 1;
-            animation: about 3s ease;
+            animation: about 1s ease;
             margin: 17px 0px 0px 0px;
         }
         .Responsive{
             flex: 1;
-            animation: about 2s ease;
+            animation: about 1s ease;
             margin: 17px 0px 0px 0px;
         }
         .fast{
