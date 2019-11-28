@@ -414,8 +414,14 @@
     }
       
       @media screen and (max-width: 1024px){
+        .top img {
+            height: 28px;
+            align-items: center;
+            margin: 6px 0px 0px 0px;
+        }
         .top{
             padding: 0 20px;
+            height: 9vh;
         }
         .menu-toggle{
             display: block;

@@ -322,6 +322,20 @@ animation: animated-text 2s steps(30,end) 1s 1 normal both;
 }
 
   @media only screen and (max-width: 1024px) {
+    .top img {
+        height: 28px;
+        align-items: center;
+        margin: 6px 0px 0px 0px;
+    }
+    .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        z-index: auto;
+    }
+    .btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+        border-radius: 0;
+        z-index: auto;
+    }
     .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
         border-bottom-right-radius: 0;
         border-top-right-radius: 0;
@@ -329,6 +343,7 @@ animation: animated-text 2s steps(30,end) 1s 1 normal both;
     }
     .top{
         padding: 0 20px;
+        height: 9vh;
     }
     .menu-toggle{
         display: block;
